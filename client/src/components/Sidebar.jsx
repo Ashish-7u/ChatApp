@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import assets from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
-import { ChatContext } from '../../context/Chatcontext';
+import { ChatContext } from '../../context/ChatContext';
 import { io } from "socket.io-client"; // Import io
 
 const Sidebar = () => {
